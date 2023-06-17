@@ -208,7 +208,7 @@ body.setting .panel .icon-add {
 }
 
 #websites .tag:nth-child(4n+1) {
-    background: lightblue;
+    background: red;
 }
 
 #websites .tag:nth-child(4n+2) {
