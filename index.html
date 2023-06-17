@@ -7,23 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>导航</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="fonts/font_4020842_khtw8ee1f4j.js"></script>
+    <script src="//at.alicdn.com/t/c/font_4020842_ion6xxc1cmk.js"></script>
 </head>
 
-<body>
+<body class="preview">
     <div id="page">
         <section id="search">
             <div class="search-type">
-                <div class="search-tab active">
-                    <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-baidu"></use>
-                    </svg>
+                <div data-type='baidu' class="search-tab tab-baidu active">
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-baidu"></use></svg>
                     百度
                 </div>
-                <div class="search-tab bing">
-                    <svg class="icon" aria-hidden="true">
-                        <use xlink:href="#icon-bing"></use>
-                    </svg>
+                <div data-type='bing' class="search-tab tab-bing">
+                    <svg class="icon" aria-hidden="true"><use xlink:href="#icon-bing"></use></svg>
                     必应
                 </div>
             </div>
@@ -36,60 +32,66 @@
         </section>
         <section id="websites">
             <ul class="list">
-                <li class="items">
+                <li class="item">
                     <h2>常用网站</h2>
                     <ul class="panel">
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
+                        <li class="tag">百度</li>
+                        <li class="tag">知乎</li>
                     </ul>
                 </li>
-                <li class="items">
+                <li class="item">
                     <h2>常用网站</h2>
                     <ul class="panel">
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                    </ul>
-                </li>
-                <li class="items">
-                    <h2>常用网站</h2>
-                    <ul class="panel">
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
-                        <li class="tag color-1">百度</li>
-                        <li class="tag color-2">知乎</li>
-                        <li class="tag color-3">v2ex</li>
-                        <li class="tag color-4">饥人谷</li>
+                        <li class="tag">百度</li>
+                        <li class="tag">知乎</li>
                     </ul>
                 </li>
             </ul>
         </section>
+        <div class="plus">
+            <svg class="icon icon-plus" aria-hidden="true">
+                <use xlink:href="#icon-plus1"></use>
+            </svg>
+        </div>
+        <div id="setting">
+            <svg class="icon icon-setting" aria-hidden="true"><use xlink:href="#icon-settings"></use></svg>
+            <svg class="icon icon-back" aria-hidden="true"><use xlink:href="#icon-back1"></use></svg>
+            
+        </div>
+        <div class="modal modal-1">
+            <h4>输入分类名称</h4>
+            <div class="field">
+              <input type="text" placeholder="输入分类名称">
+            </div>
+            <div class="button confirm">确定</div>
+            <div class="button cancel">取消</div>
+          </div>
+        <div class="modal modal-2">
+            <h4>输入分类名称</h4>
+            <div class="field">
+              <input type="text" placeholder="输入分类名称">
+            </div>
+            <div class="button confirm">确定</div>
+            <div class="button cancel">取消</div>
+        </div>
+        <div class="modal modal-3">
+            <h4>添加网站</h4>
+            <div class="field">
+              <input type="text"  class="site-name" placeholder="输入网站名称">
+            </div>
+            <div class="field">
+                <input type="text"class="site-url" placeholder="输入网址">
+              </div>
+            <div class="button confirm">确定</div>
+            <div class="button cancel">取消</div>
+        </div>
     </div>
+    <script src="js/main.js"></script>
+    <script>
+        //baidu ='https://www.baidu.com/s?wd='+ '饥人谷'
+        //bing = 'https://cn.bing.com/search?q=' + '饥人谷'
+
+    </script>
 </body>
 
 </html>
